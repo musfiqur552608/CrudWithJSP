@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>GetAlienController</servlet-name>
+  	<display-name>GetAlienController</display-name>
+  	<description></description>
+  	<servlet-class>com.musfiq.web.GetAlienController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetAlienController</servlet-name>
+  	<url-pattern>/getAlien</url-pattern>
+  </servlet-mapping>
 </web-app>
